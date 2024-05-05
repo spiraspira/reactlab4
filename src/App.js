@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import GreetingsSection from "./components/GreetingsSection";
 import Testimonials from "./components/Testimonials";
 import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
 
 function App() {
     const myProperties = ["Квартира 1", "Квартира 2", "Дом 1", "Дом 2"];
@@ -25,6 +26,7 @@ function App() {
         <PropertyList properties={myProperties} />
         <Testimonials testimonials={testimonials} />
         <ContactForm />
+        <Footer />
     </div>
   );
 }
