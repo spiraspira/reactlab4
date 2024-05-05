@@ -20,7 +20,7 @@ function App() {
       ];
 
   return (
-    <div>
+    <div className="app">
         <Header />
         <GreetingsSection />
         <PropertyList properties={myProperties} />
